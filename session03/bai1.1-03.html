@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 600px;
+            margin: auto;
+        }
+
+        #container {
+            width: 100%;
+            border: 10px solid rgb(195, 195, 243);
+
+        }
+
+        .d1 {
+            text-align: center;
+        }
+
+        h2 {
+            background-color: orange;
+            margin-top: 0;
+        }
+
+        label,
+        input {
+            margin: 4px;
+
+        }
+
+        .d2 {
+            padding-left: 10%;
+        }
+
+        #mail {
+            position: relative;
+            left: 24px;
+        }
+
+        #sothich {
+            position: relative;
+            left: 12px;
+        }
+
+        #checkbox {
+            position: relative;
+            left: 75px;
+            bottom: 10px;
+        }
+
+        #submit {
+            position: relative;
+            left: 75px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="d1">
+            <h2>SỞ THÍCH CỦA BẠN</h2>
+        </div>
+
+        <form>
+            <div class="d2" id="hoten">
+                <label for="hovaten" class="l1">Họ và tên</label>
+                <input type="text" name="yourname" id="hovaten"><br>
+            </div>
+            <div class="d2" id="mail">
+                <label for="email" class="l1">Email</label>
+                <input type="text" name="email" id="email"><br>
+            </div>
+            <div class="d2">
+                <label class="l1" id="sothich">Sở thích</label>
+                <div id="checkbox"> 
+                    <input type="checkbox" />Thể thao
+                    <input type="checkbox" />Âm nhạc
+                    <input type="checkbox" />Đọc sách<br>
+                    <input type="checkbox" />Lướt web
+                    <input type="checkbox" />Chơi game
+                    <input type="checkbox" />Điện ảnh<br>
+                    <input type="checkbox" />Du lịch<br>
+                </div>
+            </div>
+            <div class="d2" id="submit">
+                <input type="submit" value="Gửi thông tin" />
+                <input type="reset" value="Nhập lại" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
