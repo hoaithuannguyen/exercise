@@ -1,0 +1,19 @@
+table {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.tr {
+    background-color: aqua;
+    border-radius: 25px ;
+    border-collapse: collapse;
+}
+
+span {
+    display: inline-block;
+    margin-left: 42px;
+}
+
+.td {
+    border-radius: 25px ;
+}

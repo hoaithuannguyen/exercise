@@ -1,0 +1,14 @@
+body {
+    width: 500px;
+}
+
+.container {
+    background-color: gray;
+    margin: auto;
+    width: 100%;
+}
+
+.box2 {
+    background-color: white;
+    width: 50%;
+}

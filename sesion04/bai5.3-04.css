@@ -1,0 +1,43 @@
+.container {
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+}
+
+.box2 {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.box3 {
+    background-color: violet;
+    width: 100%;
+    height: 100px;
+}
+
+.box4 {
+    background-color: yellow;
+    width: 100%;
+    height: 100px;
+}
+
+.box5 {
+    background-color: black;
+    width: 20%;
+    height: 100px;
+}
+
+.box22 {
+    background-color: black;
+    width: 10%;
+    height: 100px;
+    margin-left: 45px;
+}

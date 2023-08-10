@@ -1,0 +1,27 @@
+body {
+    /* background-image: url('./images/350658698_215789547904999_8448288690151233499_n.jpg'); */
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#container {
+    background-image: url('./images/phan-mem-hoc-tu-vung-tieng-nhat-mochimochi.jpg');
+    margin: auto;
+    width: 800px;
+    height: 400px;
+}
+
+.box {
+    text-align: center;
+    margin: 100px;
+}
+
+.box1 {
+   position: relative;
+   top: 40px;
+}
+
+.box3 {
+    background-color: orangered;
+}

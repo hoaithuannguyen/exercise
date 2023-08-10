@@ -1,0 +1,19 @@
+body {
+    width: 800px;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.box3-1 {
+    color: red;
+}
+
+
