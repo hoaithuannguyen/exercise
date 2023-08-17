@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    width: 1366px;
+}
+
+.box-one {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    height: 80px;
+}
+
+.one-one {
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 187px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.one-two {
+    display: flex;
+}
+
+.img-one {
+    width: 193px;
+    height: 42px;
+}
+
+.img-two {
+    width: 40.198px;
+    height: 38.19px;
+    margin-left: 176px;
+    margin-top: 24px;
+    margin-bottom: 17.81px;
+}
+
+.two-two :nth-child(1) {
+    font-size: 16px;
+    width: 99px;
+    height: 19px;
+}
+
+.two-two :nth-child(2) {
+    font-size: 16px;
+    width: 141px;
+    height: 19px;
+    color: #159EEC;
+}
+
+.img-three {
+    margin-left: 0px;
+}
+
+.two-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 184px;
+}
+
+.two-two-one {
+    color: #159EEC;
+}
+
+.two-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 184px;
+}
+
+.one-two-1 {
+    position: relative;
+    right: 20px;
+}
+
+.bignav {
+    background-color: #1F2B6C;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    font-family: Work Sans, sans-serif;
+}
+
+.nav {
+    color: white;
+    font-size: 18px;
+}
+
+.nav1 {
+    padding-left: 187px;
+}
+
+
+
+.nav2 {
+    padding-left: 12px;
+}
+
+
+
+.nav3 {
+    padding-left: 12px;
+}
+
+.nav4 {
+    padding-left: 12px;
+}
+
+.nav5 {
+    padding-left: 12px;
+}
+
+.nav6 {
+    padding-left: 12px;
+}
+
+.nav7 {
+    padding-left: 276px;
+}
+
+.nav8 {
+    padding-left: 12px;
+}
+
+button {
+    border-radius: 50px;
+    height: 35px;
+    width: 140px;
+    margin-left: 5px;
+    background-color: #BFD2F8;
+}
+
+@media screen and (max-width:600px) {
+    .box-one {
+        width: 100%;
+        background-color: red;
+        height: 80px;
+        display: block;
+    }
+}

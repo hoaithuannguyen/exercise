@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        background-color: white;
+        width: 600px;
+    }
+
+    .content2 {
+        display: flex;
+    }
+
+    .box-main {
+        background-color: black;
+        width: 200px;
+        height: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .box-right1 {
+        background-color: white;
+        position: absolute;
+        width: 150px;
+        left: 1;
+        bottom: 1;
+        visibility: hidden;
+        color: white;
+    }
+
+    .box-right2 {
+        background-color: white;
+        position: absolute;
+        width: 150px;
+        left: 1;
+        bottom: 1;
+        visibility: hidden;
+        color: white;
+    }
+
+    .box-right3 {
+        background-color: white;
+        position: absolute;
+        width: 150px;
+        left: 1;
+        bottom: 1;
+        visibility: hidden;
+        color: white;
+    }
+
+    .box-right4 {
+        background-color: white;
+        position: absolute;
+        width: 150px;
+        left: 1;
+        bottom: 1;
+        visibility: hidden;
+        color: white;
+    }
+
+    .box1:hover .box-right1 {
+        visibility: visible;
+    }
+
+    .box2:hover .box-right2 {
+        visibility: visible;
+    }
+
+    .box3:hover .box-right3 {
+        visibility: visible;
+    }
+
+    .box4:hover .box-right4 {
+        visibility: visible;
+    }
+
+    .box-main:hover {
+        color: red;
+        z-index: 999;
+    }
+
+    .box-right1 div {
+        background-color: black;
+    }
+
+    .box-right2 div {
+        background-color: black;
+    }
+
+    .box-right3 div {
+        background-color: black;
+    }
+
+    .box-right4 div {
+        background-color: black;
+    }
+
+    .box11:hover {
+        color: red;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="content1">GIẢI BÓNG ĐÁ NGOẠI HẠNG ANH</div>
+        <div class="content2">
+            <div class="box1 box-main">Việt Nam
+                <div class="box-right1">
+                    <div class="box11">Ninh Quảng</div>
+                    <div class="box11">Ninh Quảng</div>
+                    <div class="box11">Ninh Quảng</div>
+                    <div class="box11">Ninh Quảng</div>
+                    <div class="box11">Ninh Quảng</div>
+                </div>
+            </div>
+            <div class="box2 box-main">Singlippy
+                <div class="box-right2">
+                    <div class="box11">Than Quảng Ninh</div>
+                    <div class="box11">Than Quảng Ninh</div>
+                    <div class="box11">Than Quảng Ninh</div>
+                    <div class="box11">Than Quảng Ninh</div>
+                    <div class="box11">Than Quảng Ninh</div>
+                </div>
+            </div>
+            <div class="box3 box-main">Dongtymo
+                <div class="box-right3">
+                    <div class="box11">Quảng Ninh</div>
+                    <div class="box11">Quảng Ninh</div>
+                    <div class="box11">Quảng Ninh</div>
+                    <div class="box11">Quảng Ninh</div>
+                    <div class="box11">Quảng Ninh</div>
+                </div>
+            </div>
+            <div class="box4 box-main">Laocai
+                <div class="box-right4">
+                    <div class="box11">Than Quảng</div>
+                    <div class="box11">Than Quảng</div>
+                    <div class="box11">Than Quảng</div>
+                    <div class="box11">Than Quảng</div>
+                    <div class="box11">Than Quảng</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

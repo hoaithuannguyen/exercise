@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+        display: grid;
+        margin: 0 auto;
+        width: 500px;
+        grid-template-areas:
+            "header header"
+            "left right"
+            "left right1"
+            "left right2"
+            "footer right2"
+        ;
+        grid-template-rows: 120px 120px 120px 120px 120px;
+    }
+
+    .box-one {
+        grid-area: header;
+    }
+
+    .box-two {
+        grid-area: left;
+        background-color: lightgray;
+    }
+
+    .box-three {
+        grid-area: right;
+        background-color: lightblue;
+    }
+
+    .box-four {
+        grid-area: right1;
+        background-color: lightyellow;
+    }
+
+    .box-five {
+        grid-area: right2;
+        background-color: lightslategrey;
+    }
+
+    .box-six {
+        grid-area: footer;
+        background-color: lightgreen;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box-one"><img
+                src="https://www.onlyinyourstate.com/wp-content/uploads/2019/06/GettyImages-545069022.jpg" width="500px"
+                alt=""></div>
+        <div class="box-two">
+            <img src="https://www.onlyinyourstate.com/wp-content/uploads/2019/06/GettyImages-545069022.jpg"
+                width="500px" alt="">
+        </div>
+        <div class="box-three">
+            <img src="https://www.onlyinyourstate.com/wp-content/uploads/2019/06/GettyImages-545069022.jpg"
+                width="500px" alt="">
+        </div>
+        <div class="box-four">
+            <img src="https://www.onlyinyourstate.com/wp-content/uploads/2019/06/GettyImages-545069022.jpg"
+                width="500px" alt="">
+        </div>
+        <div class="box-five">
+            <img src="https://www.onlyinyourstate.com/wp-content/uploads/2019/06/GettyImages-545069022.jpg"
+                width="500px" alt="">
+        </div>
+        <div class="box-six">
+            <img src="https://www.onlyinyourstate.com/wp-content/uploads/2019/06/GettyImages-545069022.jpg"
+                width="500px" alt="">
+        </div>
+    </div>
+</body>
+
+</html>

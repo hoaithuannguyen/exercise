@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+        display: grid;
+        grid-template-areas:
+            "thuan thuan thuan"
+            "section article article"
+            "section aside aside"
+            "footer footer footer"
+        ;
+        grid-template-rows: 100px 100px 100px 100px;
+    }
+
+    .header {
+        grid-area: thuan;
+        background-color: lightcoral;
+    }
+
+    .section {
+        grid-area: section;
+        background-color: lightgreen;
+    }
+
+    .article {
+        grid-area: article;
+        background-color: lightpink;
+    }
+
+    .aside {
+        grid-area: aside;
+        background-color: lightslategrey;
+    }
+
+    .footer {
+        grid-area: footer;
+        background-color: lightgoldenrodyellow;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="section">Section</div>
+        <div class="article">Article</div>
+        <div class="aside">Aside</div>
+        <div class="footer">Footer</div>
+    </div>
+
+</body>
+
+</html>

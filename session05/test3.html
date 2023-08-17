@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Hover Danh Sách</title>
+    <link rel="stylesheet" href="bai03.css">
+</head>
+<style>
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    li {
+        margin: 10px 0;
+    }
+
+
+    a {
+        display: block;
+        padding: 10px;
+        background-color: #c1c1c1;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+
+    a:hover {
+        background-color: #666;
+    }
+
+
+    a:active {
+        color: #fff;
+    }
+/* -------------------------------------------------------- */
+    .my-button {
+        background-color: #c1c1c1;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+
+    .my-button:hover {
+        background-color: #666;
+    }
+
+
+    .my-button:active {
+        background-color: red;
+    }
+</style>
+
+<body>
+    <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+        <li><a href="#">Item 4</a></li>
+    </ul>
+
+    <button class="my-button">Click me</button>
+
+</body>
+
+
+</html>

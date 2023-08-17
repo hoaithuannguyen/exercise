@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 40rem;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+}
+
+.box-one {
+    background-color: lightslategrey;
+    width: 98%;
+    height: 2rem;
+    color: white;
+    position: relative;
+    left: 0.4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.box-two p:nth-child(1) {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.box-two p:nth-child(2) {
+    width: 23rem;
+    padding-left: 2rem;
+    margin-top: 0.3rem;
+    margin-left: 8.5rem;
+    text-align: justify;
+    font-size: 0.8rem;
+}
+
+.box-three {
+    display: flex;
+}
+
+.box-three-in1 {
+    background-color: rgb(15, 180, 236);
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 3%;
+    margin-left: 13.5rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.9rem;
+}
+
+.box-three-in2 {
+    background-color: lightslategrey;
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 3%;
+    margin-left: 0.2rem;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.9rem;
+}
+
+.box-four {
+    background-color: rgb(245, 245, 245);
+    width: 98%;
+    position: relative;
+    left: 0.4rem;
+    padding-left: 3rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    height: 50rem;
+    margin-top: 4rem;
+    display: flex;
+}
+
+.box-four-in1 {
+    width: 10rem;
+    height: 8rem;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+img {
+    width: 10rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.box-four-in2 {
+    width: 10rem;
+    height: 8rem;
+    background-color: wheat;
+}
+
+.box-five {
+    background-color: rgb(245, 245, 245);
+    width: 98%;
+    position: relative;
+    left: 0.4rem;
+    padding-left: 3rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    height: 50rem;
+    margin-top: 4rem;
+    display: flex;
+    position: relative;
+    bottom: 38rem;
+}

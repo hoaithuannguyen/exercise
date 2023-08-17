@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-size: 0.8rem; */
+}
+
+body {
+    width: 100%;
+    /* height: 80rem; */
+    color: white;
+}
+
+.containerOne {
+    background-color: black;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+.header_one {
+    margin-left: 5rem;
+    margin-top: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.header_two {
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+
+.header_three {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.header_four {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.header_five {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.header_six {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.six-three {
+    width: 2rem;
+    height: 2rem;
+}
+
+.six-four {
+    width: 2rem;
+    height: 2rem;
+    padding-right: 5rem;
+    position: relative;
+    right: 5rem;
+}
+
+.header_seven {
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+
+.btn {
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+/* .header_eight {
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+
+.header_nine {
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+} */
+
+.containerTwo {
+    background-image: url(./images1/hero-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 38rem;
+}
+
+.one-one {
+    margin-left: 5rem;
+    padding-top: 12rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.one-two {
+    margin-left: 5rem;
+    width: 20rem;
+    padding-top: 2rem;
+}
+
+.one-three {
+    padding-top: 2rem;
+}
+
+button {
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 50px;
+    margin-left: 5rem;
+    background-color: orange;
+}
+
+.one-four {
+    padding-top: 8rem;
+    /* margin-left: 5rem; */
+}
+
+.main_two {
+    /* background-image: url(./images1/images.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 38rem; */
+}
+
+.containerThree {
+    /* background-image: url(./images1/images.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 38rem; */
+    background-color: gray;
+    width: 100%;
+    height: 38rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.containerThree_one {
+    /* background-image: url(./images1/images.png);
+    background-size: auto;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 30rem;
+    /* font-family: 'Dancing Script', cursive;
+    font-size: 2rem; */
+}
+
+.containerThree-one {
+    margin-left: 45rem;
+    padding-top: 12rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.containerThree-two {
+    width: 20rem;
+    padding-top: 2rem;
+    margin-left: 45rem;
+}
+
+.containerThree-three {
+    padding-top: 2rem;
+    margin-left: 40rem;
+}
+
+button {
+    color: black;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 50px;
+    margin-left: 5rem;
+    background-color: orange;
+    border: 0;
+}
+
+img {
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    bottom: 20rem;
+    left: 10rem;
+}
+
+.icon {
+    position: relative;
+    bottom: 0.3rem;
+    left: 2rem;
+}
+
+.btn-n {
+    width: 1rem;
+    height: 1rem;
+}
+
+.btn-one {
+    position: relative;
+    right: 5rem;
+}
+
+.btn-three {
+    position: relative;
+    right: 10rem;
+    background-color: orange;
+}
+
+.icontwo {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.but {
+    background-color: white;
+}
